@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% for row in table %}
+<h4> id:{{row[0]}} || name:{{row[1]}} </h4><br>
+{% endfor %}
+
+{% endblock %}
